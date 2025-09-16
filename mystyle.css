@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+}
+
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    font-family: 'Brush Script MT' , cursive;
+    color: rgb(0, 0, 0);
+    background-color: #f3f1f3;
+}
+
+.logo {
+    font-size: 20pt;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+
+nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    transition: .5s ;
+}
+
+nav a:hover {
+    color: #DB8DD0;
+    font-size: 13pt;
+
+}
+
+.btn-getshoping {
+    padding: 7px 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: 'Brush Script MT' , cursive;
+    font-size: 10pt;
+    font-weight: bolder;
+}
+
+.btn-getshoping:hover {
+    background-color: #DB8DD0;
+}
+
+.title {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 0 20px;
+    font-family: 'Brush Script MT' , cursive;
+    pointer-events: none;
+}
+
+.title video {
+    pointer-events: all;
+    border: 6px solid #a8a8a8;
+    box-shadow: #797077 0px 4px 10px;
+}
+
+.heading .titleword {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+@keyframes colorchange1 {
+    0% { color: #B33791;}
+    33% { color: #C562AF;}
+    66% { color: #DB8DD0;}
+    100% { color: #B33791}
+
+    
+    
+}
+
+@keyframes colorchange2 {
+    0% { color: #C562AF;}
+    33% { color: #DB8DD0;}
+    66% { color: #B33791;}
+    100% { color: #C562AF}
+    
+}
+
+@keyframes colorchange3 {
+    0% { color: #DB8DD0;}
+    33% { color: #B33791;}
+    66% { color: #C562AF;}
+    100% { color: #DB8DD0;}
+    
+}
+
+.word1 {
+    animation: colorchange1 4s infinite;
+}
+
+.word2 {
+    animation: colorchange2 4s infinite;
+}
+
+.word3 {
+    animation: colorchange3 4s infinite;
+}
+
+.word4 {
+    animation: colorchange1 4s infinite;
+}
+
+
+
+
+.heading p {
+    font-size: 18px;
+    font-weight: 300;
+    opacity: 0.8;
+    font-family:'Itim', sans-serif;
+}
+
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.products h2 {
+    font-family:'Itim', sans-serif;
+    font-size: 22pt;
+}
+
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    
+}
+
+.product h3 {
+    font-size: 18pt;
+}
+
+.product {
+    background: white;
+    border: 1px solid #dbd7d7;
+    border-radius: 12px;
+    padding: 15px;
+    transition: transform 0.2s;
+    text-align: center;
+    font-family: 'Brush Script MT' , cursive;
+}
+
+.product p {
+    font-family:'Itim', sans-serif;
+    font-size: 13pt;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px #DB8DD0;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+    width: 200px; height: 200px;
+}
+
+.btn-learnmore {
+    padding: 7px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    font-family: 'Brush Script MT' , cursive;
+    font-size: 10pt;
+    font-weight: bolder;
+}
+
+.btn-learnmore:hover {
+    background-color: #DB8DD0;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 17pt;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Brush Script MT' , cursive;
+    font-family: 'Itim', sans-serif;
+}
+
