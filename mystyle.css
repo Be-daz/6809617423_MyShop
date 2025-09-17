@@ -203,3 +203,14 @@ footer {
     font-family: 'Itim', sans-serif;
 }
 
+.titlecategory {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 0 20px;
+    font-family: 'Brush Script MT' , cursive;
+    pointer-events: none;
+    text-align: center;
+}
+
